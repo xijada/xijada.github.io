@@ -1,0 +1,111 @@
+/* <font-family: 'Merriweather', serif;
+font-family: 'Merienda', cursive;>*/
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background: rgb(255, 255, 255, 0.5);
+	border-radius: 10px;
+}
+
+body{
+	background: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	margin-left: 10px;
+	font-size: 30px;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Merriweather', serif;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: left;
+	color:black;
+}
+
+h3{
+	font-family: 'Merriweather', serif;
+	margin-left: 10px;
+	font-size: 10px;
+	text-align: center;
+	color:black;
+}
+
+
+header{
+	width: 1000px;
+	height: 150px;
+	background-image: url(../img/logounad.png) 
+
+}
+
+nav{
+	width: 1000px;
+	height: 70px;
+	background: #35a9dc;
+	border-radius: 10px;
+}
+
+ul{
+	margin: auto;
+	padding-top:4px;
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: #f5b041;
+	margin: 6px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px;
+}
+
+/*Sección index*/
+
+section{
+	width: 1000px;
+	background: rgb(255, 255, 255, 05);
+	height: 1000px;
+	float: left;
+	margin-top:10px;
+	border-radius: 10px;	
+}
+
+footer{
+	width: 1000px;
+	height: 60px;
+	background: #35a9dc;
+	float: left;
+	margin-top:15px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+
+}
+
+p{
+	font-size: 20px;
+	font-weight: black;
+	line-height: 20px;
+	padding: 10px;
+	text-align: left;
+
+}
+
+/*clases*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color:  #273887;text-decoration: none;}
+.menu:visited{color:  #273887 ;text-decoration: none;}
+.menu:hover{color:  #273887 ;text-decoration: none;}
+.menu:active{color:  #273887 ;text-decoration: none;}
